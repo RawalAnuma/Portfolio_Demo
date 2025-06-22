@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(80, 108, 129);
+  color: rgb(235, 238, 241);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+nav {
+  background-color: rgb(234, 239, 240);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-between;
+  margin: 23px 0;
+  padding: 20px;
+}
+
+.secondSection {
+  background-color: #ffffff;
+  color: #2d587a;
+  margin: 30px;
+  padding: 40px;
+  border-radius: 50px;
+}
+
+.thirdSection {
+  background-color: #ffffff;
+  color: #2d587a;
+  margin: 30px;
+  padding: 40px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project-card h3 {
+  margin: 15px 0 10px;
+  font-size: 1.5em;
+}
+
+.project-card p {
+  font-size: 1em;
+  color: #555;
+}
+
+.project-card .button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #0077cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.project-card .button:hover {
+  background: #a30023;
+}
