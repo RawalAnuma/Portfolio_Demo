@@ -8,6 +8,7 @@ body {
   color: rgb(235, 238, 241);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+    padding-top: 80px;
 }
 
 nav {
@@ -16,6 +17,14 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+section{
+  scroll-margin-top: 80px;
 }
 
 .firstSection {
@@ -28,7 +37,7 @@ nav {
 .secondSection {
   background-color: #ffffff;
   color: #2d587a;
-  margin: 30px;
+  margin: 90px;
   padding: 40px;
   border-radius: 50px;
 }
@@ -36,7 +45,7 @@ nav {
 .thirdSection {
   background-color: #ffffff;
   color: #2d587a;
-  margin: 30px;
+  margin: 80px;
   padding: 40px;
   border-radius: 50px;
   text-align: center;
