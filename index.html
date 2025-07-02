@@ -98,86 +98,105 @@
       </nav>
     </header>
 
-    <main>
-      <section id="home">
-        <section class="firstSection">
-          <div class="leftSection">
-            <img src="./images/profile_photo.jpg" alt="Photo" />
-          </div>
-          <div class="rightSection">
-            <h2>Greetings to everyone!</h2>
-            <br />
-            <p>
-              I'm Anuma, a passionate Web Developer with a strong focus on
-              creating responsive, user-friendly websites and web applications.
-              I specialize in front-end development using HTML, CSS, JavaScript,
-              and modern frameworks like React. I enjoy turning ideas into
-              reality through clean code, intuitive design, and seamless user
-              experiences.
-            </p>
-          </div>
-        </section>
+    <section id="home">
+      <section class="firstSection">
+        <div class="leftSection">
+          <img src="./images/profile_photo.jpg" alt="Photo" />
+        </div>
+        <div class="rightSection">
+          <h2>Greetings to everyone!</h2>
+          <br />
+          <p>
+            I'm Anuma, a passionate Web Developer with a strong focus on
+            creating responsive, user-friendly websites and web applications. I
+            specialize in front-end development using HTML, CSS, JavaScript, and
+            modern frameworks like React. I enjoy turning ideas into reality
+            through clean code, intuitive design, and seamless user experiences.
+          </p>
+        </div>
       </section>
+    </section>
 
-      <br />
-      <section id="skills">
-        <section class="secondSection">
-          <h2>Technologies I'm Proficient In</h2>
-          <div class="mySkills">
-            <img src="./images/HTML5_logo.png" alt="HTML" />
-            <img src="./images/CSS-Logo.png" alt="CSS" />
-            <img src="./images/js_logo.png" alt="JS" />
-            <img src="./images/java-logo.png" alt="Java" />
-            <img src="./images/python-logo.png" alt="Python" />
-            <img src="./images/react-logo.png" alt="React" />
-            <img src="./images/nodeJs.png" alt="NodeJs" />
+    <br />
+    <section id="skills">
+      <section class="secondSection">
+        <h2>Technologies I'm Proficient In</h2>
+        <div class="mySkills">
+          <img src="./images/HTML5_logo.png" alt="HTML" />
+          <img src="./images/CSS-Logo.png" alt="CSS" />
+          <img src="./images/js_logo.png" alt="JS" />
+          <img src="./images/java-logo.png" alt="Java" />
+          <img src="./images/python-logo.png" alt="Python" />
+          <img src="./images/react-logo.png" alt="React" />
+          <img src="./images/nodeJs.png" alt="NodeJs" />
+        </div>
+      </section>
+    </section>
+    <br />
+
+    <section id="projects">
+      <section class="thirdSection">
+        <h2>Some Of My Creations</h2>
+        <div class="projects-container">
+          <div class="project-card">
+            <!--Project card 1-->
+            <img src="./images/project1.jpg" alt="Project 1" />
+            <h3>Project Title 1</h3>
+            <p>Short description of the project in written here!</p>
+            <a href="link-of-the-project1.html" class="button"
+              >Explore Project</a
+            >
           </div>
-        </section>
-      </section>
-      <br />
 
-      <section id="projects">
-        <section class="thirdSection">
-          <h2>Some Of My Creations</h2>
-          <div class="projects-container">
-            <div class="project-card">
-              <!--Project card 1-->
-              <img src="./images/project1.jpg" alt="Project 1" />
-              <h3>Project Title 1</h3>
-              <p>Short description of the project in written here!</p>
-              <a href="link-of-the-project1.html" class="button"
-                >Explore Project</a
-              >
-            </div>
-
-            <div class="project-card">
-              <!--Project card 2-->
-              <img src="./images/project2.jpg" alt="Project 2" />
-              <h3>Project Title 2</h3>
-              <p>Short description of the project in written here!</p>
-              <a href="link-of-the-project2.html" class="button"
-                >Explore Project</a 
-              >
-            </div>
-
-            <div class="project-card">
-              <!--Project card 3-->
-              <img src="./images/project3.png" alt="Project 2" />
-              <h3>Project Title 3</h3>
-              <p>Short description of the project in written here!</p>
-              <a href="link-of-the-project3.html" class="button"
-                >Explore Project</a
-              >
-            </div>
+          <div class="project-card">
+            <!--Project card 2-->
+            <img src="./images/project2.jpg" alt="Project 2" />
+            <h3>Project Title 2</h3>
+            <p>Short description of the project in written here!</p>
+            <a href="link-of-the-project2.html" class="button"
+              >Explore Project</a
+            >
           </div>
-        </section>
-      </section>
 
-      <section id="contact">
-        <section class="fourthSection">
-          <h2>Contact Me</h2>
-        </section>
+          <div class="project-card">
+            <!--Project card 3-->
+            <img src="./images/project3.png" alt="Project 2" />
+            <h3>Project Title 3</h3>
+            <p>Short description of the project in written here!</p>
+            <a href="link-of-the-project3.html" class="button"
+              >Explore Project</a
+            >
+          </div>
+        </div>
       </section>
-    </main>
+    </section>
+
+    <section id="contact">
+      <section class="fourthSection">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+          <!--Input for name-->
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" required /><br />
+
+          <!--Input for email-->
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" required /><br />
+
+          <!--Textarea for message-->
+          <label for="message">Message:</label><br />
+          <textarea id="message" rows="4" required></textarea><br />
+
+          <!--Submit button-->
+          <button type="submit">Send</button>
+        </form>
+
+        <!--Message displayed after submission-->
+        <p id="confirmationMessage"></p>
+      </section>
+    </section>
+
+    <!--Linking external javaScript-->
+    <script src="./javaScript/script.js"></script>
   </body>
 </html>

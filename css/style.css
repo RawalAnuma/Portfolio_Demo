@@ -8,7 +8,7 @@ body {
   color: rgb(235, 238, 241);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-    padding-top: 80px;
+  padding-top: 80px;
 }
 
 nav {
@@ -23,7 +23,7 @@ nav {
   width: 100%;
   z-index: 1000;
 }
-section{
+section {
   scroll-margin-top: 80px;
 }
 
@@ -100,4 +100,23 @@ section{
 
 .project-card .button:hover {
   background: #a30023;
+}
+
+#contactForm input,
+#contactForm textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+#contactForm button {
+  padding: 8px 16px;
+  background-color: #2a88e6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#contactForm button:hover {
+  background-color: #1a5fb4;
 }
